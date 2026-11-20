@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none" role="img">
+<defs>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+<path d="M 36 0 L 0 0 0 36" stroke="#F5F6F3" stroke-opacity="0.07" stroke-width="1"/>
+</pattern>
+</defs>
+<rect width="800" height="600" fill="#F5F6F3"/>
+<rect width="800" height="600" fill="url(#grid)"/>
+<rect x="80" y="96" width="400" height="372" stroke="#151918" stroke-opacity="0.75" stroke-width="2" fill="none" fill-opacity="0"/><line x1="80" y1="158" x2="480" y2="158" stroke="#151918" stroke-opacity="0.2" stroke-width="1"/><line x1="80" y1="220" x2="480" y2="220" stroke="#151918" stroke-opacity="0.2" stroke-width="1"/><line x1="80" y1="282" x2="480" y2="282" stroke="#151918" stroke-opacity="0.2" stroke-width="1"/><line x1="80" y1="344" x2="480" y2="344" stroke="#151918" stroke-opacity="0.2" stroke-width="1"/><line x1="80" y1="406" x2="480" y2="406" stroke="#151918" stroke-opacity="0.2" stroke-width="1"/><rect x="432" y="168.00000000000003" width="208" height="156" stroke="#77977F" stroke-opacity="0.7" stroke-width="1.5" fill="#77977F" fill-opacity="0.2"/><rect x="432" y="348" width="288" height="120" stroke="#151918" stroke-opacity="0.5" stroke-width="1.5" fill="none" fill-opacity="0"/><line x1="432" y1="378" x2="720" y2="378" stroke="#151918" stroke-opacity="0.2" stroke-width="1"/><line x1="432" y1="408" x2="720" y2="408" stroke="#151918" stroke-opacity="0.2" stroke-width="1"/><line x1="432" y1="438" x2="720" y2="438" stroke="#151918" stroke-opacity="0.2" stroke-width="1"/><circle cx="664" cy="120" r="46" stroke="#77977F" stroke-opacity="0.5" stroke-width="1.2" fill="none" fill-opacity="0"/><line x1="80" y1="540" x2="720" y2="540" stroke="#151918" stroke-opacity="0.4" stroke-width="1"/>
+</svg>

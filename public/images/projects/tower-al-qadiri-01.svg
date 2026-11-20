@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" fill="none" role="img">
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M 40 0 L 0 0 0 40" stroke="#F5F6F3" stroke-opacity="0.05" stroke-width="1"/>
+</pattern>
+</defs>
+<rect width="1200" height="800" fill="#151918"/>
+<rect width="1200" height="800" fill="url(#grid)"/>
+<rect x="144" y="128" width="912" height="544" stroke="#F5F6F3" stroke-opacity="0.75" stroke-width="2" fill="none" fill-opacity="0"/><rect x="240" y="208" width="336.00000000000006" height="240" stroke="#F5F6F3" stroke-opacity="0.5" stroke-width="1.2" fill="none" fill-opacity="0"/><rect x="672.0000000000001" y="208" width="288" height="144" stroke="#F5F6F3" stroke-opacity="0.4" stroke-width="1.2" fill="none" fill-opacity="0"/><rect x="672.0000000000001" y="400" width="288" height="192" stroke="#77977F" stroke-opacity="0.5" stroke-width="1.2" fill="none" fill-opacity="0"/><rect x="240" y="496" width="264" height="96" stroke="#F5F6F3" stroke-opacity="0.4" stroke-width="1.2" fill="none" fill-opacity="0"/><line x1="576" y1="128" x2="576" y2="672" stroke="#77977F" stroke-opacity="0.45" stroke-width="1"/><line x1="144" y1="720" x2="1056" y2="720" stroke="#77977F" stroke-opacity="0.35" stroke-width="1"/><line x1="139" y1="720" x2="149" y2="720" stroke="#77977F" stroke-opacity="0.6" stroke-width="1"/><line x1="144" y1="715" x2="144" y2="725" stroke="#77977F" stroke-opacity="0.6" stroke-width="1"/><line x1="1051" y1="720" x2="1061" y2="720" stroke="#77977F" stroke-opacity="0.6" stroke-width="1"/><line x1="1056" y1="715" x2="1056" y2="725" stroke="#77977F" stroke-opacity="0.6" stroke-width="1"/><line x1="1128" y1="128" x2="1128" y2="672" stroke="#77977F" stroke-opacity="0.35" stroke-width="1"/>
+</svg>

@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-graphite: var(--brand-graphite);
+  --color-offwhite: var(--brand-offwhite);
+  --color-sage: var(--brand-sage);
+  --color-forest: var(--brand-forest);
+  --color-ink: var(--brand-ink);
+  --color-support: var(--brand-support);
+  --font-sans:
+    var(--font-ibm-sans), var(--font-ibm-arabic), ui-sans-serif, system-ui,
+    sans-serif;
+  --font-mono: var(--font-ibm-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+@custom-variant rtl (&:where([dir="rtl"], [dir="rtl"] *));
+@custom-variant ltr (&:where([dir="ltr"], [dir="ltr"] *));
+
+:root {
+  --brand-graphite: #151918;
+  --brand-offwhite: #f5f6f3;
+  --brand-sage: #77977f;
+  --brand-forest: #344a3b;
+  --brand-ink: #202622;
+  --brand-support: #858c86;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  background: var(--brand-offwhite);
+  color: var(--brand-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:lang(ar) {
+  font-family:
+    var(--font-ibm-arabic), var(--font-ibm-sans), ui-sans-serif, system-ui,
+    sans-serif;
+}
+
+/* Arabic needs lighter letter spacing and relaxed line height */
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] p,
+[dir="rtl"] span,
+[dir="rtl"] a {
+  letter-spacing: 0;
+}
+
+[dir="rtl"] .font-mono {
+  font-family:
+    var(--font-ibm-arabic), var(--font-ibm-sans), ui-sans-serif, system-ui,
+    sans-serif;
+  letter-spacing: 0.06em;
+}
+
+[dir="rtl"] body {
+  line-height: 1.75;
+}
+
+::selection {
+  background: var(--brand-forest);
+  color: #ffffff;
+}
+
+/* Slim, architectural scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-offwhite);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-graphite);
+  border-radius: 8px;
+  border: 2px solid var(--brand-offwhite);
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
